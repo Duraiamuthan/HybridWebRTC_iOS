@@ -51,6 +51,7 @@
 		A65C61EE1D8C232E002AB6F3 /* RTCVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoRenderer.h; sourceTree = "<group>"; };
 		A65C61EF1D8C232E002AB6F3 /* RTCVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoSource.h; sourceTree = "<group>"; };
 		A65C61F01D8C232E002AB6F3 /* RTCVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoTrack.h; sourceTree = "<group>"; };
+		A65C61F21D8C2AF4002AB6F3 /* WebRTCSupport-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WebRTCSupport-Bridging-Header.h"; path = "../WebRTCSupport-Bridging-Header.h"; sourceTree = "<group>"; };
 		A675C6C01D8BF47E0024CEFC /* WebRTCSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebRTCSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A675C6C31D8BF47E0024CEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A675C6C51D8BF47E0024CEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 		A675C6C21D8BF47E0024CEFC /* WebRTCSupport */ = {
 			isa = PBXGroup;
 			children = (
+				A65C61F21D8C2AF4002AB6F3 /* WebRTCSupport-Bridging-Header.h */,
 				A65C61D01D8C2250002AB6F3 /* WebRTC */,
 				A675C6C31D8BF47E0024CEFC /* AppDelegate.swift */,
 				A675C6C51D8BF47E0024CEFC /* ViewController.swift */,
@@ -413,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.webrtc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -430,6 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.webrtc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
