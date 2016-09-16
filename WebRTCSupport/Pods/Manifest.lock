@@ -1,0 +1,12 @@
+PODS:
+  - XWebView (0.9.5)
+
+DEPENDENCIES:
+  - XWebView (~> 0.9.5)
+
+SPEC CHECKSUMS:
+  XWebView: 0db7b6e207fe0911a9f2badbe40acf5ad2d4ddad
+
+PODFILE CHECKSUM: e961329d719617af70845bdf5ffad378a7b509db
+
+COCOAPODS: 1.0.1

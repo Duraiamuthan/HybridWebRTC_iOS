@@ -1,0 +1,4 @@
+target 'WebRTCSupport' do
+  use_frameworks!
+  pod 'XWebView', '~> 0.9.5’
+end
